@@ -1,0 +1,59 @@
+This is in Psuedocode For the Diving Task 1-1.7 Pre Release
+
+DECLARE Weather : STRING
+DECLARE Skill : STRING 
+DECLARE Age And Depth : INTEGER
+DECLARE DiveSites : STRING 
+
+Input “What does the weather look like today? “
+IF Weather = “Sunny”
+Output = “ Clear Visibility”
+ELSE IF = “Windy”
+Output = “Might be rough seas”
+ELSE IF = “Cloudy”
+Output = “Might be dark underwater”
+ELSE IF = “Calm”
+Output = “It will be a relaxing boat ride.”
+ ARRAY 0< x <100
+Input “How experienced is the diver ?”
+IF Skill = “Beginner”
+Output = “Let’s try something easy and fun.”
+ELSE IF = “Medium”
+Output = “ Let’s go somewhere where you can see some interesting stuff”
+ELSE IF = “ Expert”
+Output = “Let’s go to the Wreck!”
+Input “How Old is the diver?”
+IF 10<X<15 
+Output = “He / She is limited to 10m.”
+ELSE IF 15<X<17 
+Output = “He / She is limited to 20m.”
+ELSE IF 17<X<35 
+Output = “He / She is limited to 30m.”
+
+IF Weather = “Sunny 
+   Skill ← “Medium” or “Expert” 
+   Age ←  15<X<17 
+Output Dive Sites = “Golden Reef” or “Tiger reef” 
+
+IF Weather = “Windy”
+    Skill ← “Beginner”
+    Age ←  10<X<15 
+Output Dive Sites = “Sepoi”
+
+IF Weather = “Cloudy”
+     Skill ← “Medium” or “Expert”
+      Age ← 15<X<17 or 35+
+Output Dive Sites = “Tiger Reef”
+
+IF Weather = “Calm”
+     Skill ← “Beginner” or “Medium”
+     Age ← 10<X<15 or 17 
+Output Dive Sites = “Chebeh”
+
+IF Weather = “Sunny “ or “Calm”
+     Skill ← “Expert”
+     Age ←  17<X<35+ 
+Output Dive Sites = “Marine Park Wreck”
+
+ENDIF
+END 
